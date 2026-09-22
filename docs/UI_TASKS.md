@@ -44,12 +44,12 @@ application/views/templates/menu.php
 application/views/templates/footer.php
 ```
 
-- [ ] Modernize navbar appearance
-- [ ] Modernize sidebar appearance
-- [ ] Improve spacing and content area
-- [ ] Improve active/hover menu states
-- [ ] Improve user dropdown
-- [ ] Improve responsive navigation
+- [x] Modernize navbar appearance
+- [x] Modernize sidebar appearance
+- [x] Improve spacing and content area
+- [x] Improve active/hover menu states
+- [x] Improve user dropdown
+- [x] Improve responsive navigation
 
 **Preserve**
 - ACL conditions

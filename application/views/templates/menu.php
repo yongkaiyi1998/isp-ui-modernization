@@ -10,7 +10,7 @@
 			<span class="icon-bar"></span>						
 		</button>
 			
-			<a href="<?php echo base_url('home')?>" class="navbar-brand">
+			<a href="<?php echo base_url('home')?>" class="navbar-brand ui-navbar-brand">
 				<div class="row">
 					<?php
 					$company_logo = $this->config->item('logo_img'); 
@@ -22,11 +22,11 @@
 					?>
 					<?php if (!empty($company_logo)) { ?>
 					<div style="margin-top:1px;" class="pull-left">
-					<img style="width:118px;" src="<?php echo $company_logo; ?>" >
+					<img class="ui-brand-logo" style="width:118px;" src="<?php echo $company_logo; ?>" alt="<?php echo $proj_name; ?>">
 					</div>
 					<?php } else { ?>
 					<div style="margin-top:1px;" class="pull-left">
-					<img src="<?php echo base_url("/images/telco-icon.png"); ?>" >
+					<img class="ui-brand-logo" src="<?php echo base_url("/images/telco-icon.png"); ?>" alt="">
 					</div>
 					<div style="padding:3px 0 0 10px"><small><?php echo $proj_name; ?></small></div>
 					<?php } ?>
@@ -38,7 +38,7 @@
 			<ul class="nav ace-nav">
 				<li class="light-blue">
 					<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-						<span class="user-info">&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="user-info">
 							<?php echo (empty($user['display_name']))?'unknown':ucwords($user['display_name']); ?>
 						</span>
 						<i class="ace-icon fa fa-caret-down"></i>
@@ -650,5 +650,5 @@
 		</div>
 	</div>
 	<div class="main-content" >
-		<div class="main-content-inner" style="max-width: 99%;">
+		<div class="main-content-inner ui-content-shell" style="max-width: 99%;">
 				<?php // flash data here ?>

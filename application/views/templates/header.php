@@ -101,4 +101,4 @@ $favicon = $this->config->item('favicon_img');
 	?>
 
 </head>
-<body class="no-skin">
+<body class="no-skin ui-modern-shell">
