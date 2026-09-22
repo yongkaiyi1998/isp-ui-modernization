@@ -1,0 +1,40 @@
+# SVN
+.svn/
+
+# Environment / secrets
+.env
+.env.*
+
+# Uploaded / runtime files
+files/
+
+# Logs / cache
+application/logs/*
+!application/logs/index.html
+
+application/cache/*
+!application/cache/index.html
+
+# Local CI configuration
+application/config/config.php
+application/config/database.php
+
+# Local certificates / private keys
+node/*.p12
+node/*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary / backup files
+*.log
+*.tmp
+*.bak
+*.sql
+*.zip

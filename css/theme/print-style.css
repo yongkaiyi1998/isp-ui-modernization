@@ -1,0 +1,235 @@
+table {
+  border-collapse: initial;
+  border-spacing: 0;
+}
+.table {
+	border-collapse: initial;
+}
+.borderless tbody tr td, .borderless thead tr th {
+	border: none;
+}
+
+.double_underline {
+	border-top		: 1px solid grey;
+	border-bottom	: 1px solid grey;
+	width			: 100%;
+	height			: 5px;
+}
+
+.single_underline{
+	border-top		: 1px solid grey;
+	width			: 100%;
+	height			: 5px;
+}
+
+
+.print-bg{
+	background		: rgb(230,230,230);
+}
+
+.page {
+	width			: 210mm;
+	min-height		: 290mm;
+	max-height		: 290mm;
+	padding			: 5mm;	
+	margin			: 15mm auto;
+	border			: 1px rgb(230,230,230) solid;
+	border-radius	: 1px;
+	background		: white;
+}
+.subpage {
+	padding		: 0cm;
+	border		: 1px rgb(230,230,230) solid;
+	height		: 279mm;
+	position	: relative;
+}
+.content_header{
+	padding		: 0.1cm;
+}
+.content_body{
+	font-size	:1.3em;
+}
+.content_footer
+{
+	position	:absolute; 
+	bottom		:0; 
+	width		:100%;
+	text-align	:center; 
+	line-height	:1.5em;
+	font-size	:1em;
+	color		:rgb(100,100,100);
+}
+
+.content_double_line
+{
+	border-top		:0.1em solid rgb(200,200,200);
+	padding			:0.1em;
+	border-bottom	:0.1em solid rgb(200,200,200);
+}
+.content_single_line
+{
+	border-top		:0.1em solid rgb(200,200,200);
+	padding			:0.1em;
+}
+.to_capitalized {
+	 text-transform: capitalize;
+}
+.to_uppercase {
+	text-transform: uppercase;
+}
+.to_lowercase {
+	text-transform: lowercase;
+}
+.center
+{
+	margin: 0 auto;
+}
+
+ul.label-custom > li > .label {
+  padding-top: 0.3em;
+  min-width: 10em;
+  text-align: right;
+}
+
+.label-blank  {
+  color:black;
+  border: 0px;
+}
+
+.list-group-item{
+  border: 0px;
+}
+
+.customer_info{
+	margin:0.5em;
+}
+
+.content_customer_info_1_top{
+	margin-bottom:0px;
+}
+
+ul.label-custom > li > .label-left{
+  text-align	:left;
+  padding-left	:0;
+}
+.content_account_summary{
+	margin:1.0em;
+	margin-top:0.1em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.content_account_details_2_title{
+	padding-top	:1em;
+	font-size	:0.8em;
+	padding-left:0px
+}
+
+.content_account_summary_title{
+
+	font-size	:1em;
+	font-weight: bold;
+}
+
+.content_account_summary > .balance_due {
+  padding-top		: 1em;
+  padding-bottom	: 1em;
+  padding-left		: 0.5em;
+  padding-right		: 0.5em;
+  
+}
+
+.content_footer_info{
+	font-size	:1em;
+	padding		:1em;
+	text-align	:justify;
+	line-height	:1em;
+/*
+	color		:black;
+*/
+}
+.content_footer_info2{
+	font-size		:1.1em;
+	line-height		:1.1em;
+	font-weight		: bold;
+	padding-bottom	: 1em;
+}
+
+.to_underline{
+	-moz-text-decoration-style: wavy; /* Code for Firefox */
+	text-decoration: underline;
+}
+.balance_due.well  {
+  min-height: 0.5em;
+  padding:  0.5em;
+  margin-bottom:  0.5em;
+  background-color: rgb(200,200,200);
+  border: 1px solid grey;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@page {
+	size		: A4;
+	margin		: 0;
+	padding		: 0;
+}
+
+@media print 
+{
+	html, body 
+	{
+		width	: 210mm;
+		height	: 290mm;        
+	}
+	.page {
+		margin				: 0;
+		border				: initial;
+		border-radius		: initial;
+		width				: initial;
+		min-height			: initial;
+		box-shadow			: initial;
+		background			: initial;
+		page-break-after	: always;
+
+	}
+	.book .page {	
+		background-color:white !important;
+	}
+}
+
+tbody:before, tbody:after { display: none; }
+
+.item_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0.5em;
+}
+.item_table th {
+  background-color: rgb(230,230,230);
+  color: black;
+  padding: 0.5em;
+  text-align: left;
+  font-size: 1em;
+}
+.item_table td {
+  padding: 0.5em;
+  text-align: left;
+  font-size: 1em;
+}
+.item_table th, .item_table td {
+  border: 1px solid rgb(230,230,230);
+}
+.item_table th:first-child, .item_table td:first-child {
+  border-left: none;
+}
+.item_table th:last-child, .item_table td:last-child {
+  border-right: none;
+}
+.item_table tr:nth-child(even) {
+  background-color: rgb(240,240,240);
+}
+.item_table tr:nth-child(odd) {
+  background-color: rgb(255,255,255);
+}

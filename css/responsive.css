@@ -1,0 +1,35 @@
+@media screen and (max-width: 991px) {
+    .mobile-customer-summary-wrap {
+        width: 50%;
+    }
+
+    .mobile-customer-summary-wrap h4 {
+        text-align: center;
+    }
+
+    .mobile-block-list-wrap {
+        width: 50%;
+    }
+
+    .mobile-tax-type {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-customer-summary-wrap {
+        width: 100%;
+    }
+
+    .mobile-customer-summary-wrap h4 {
+        text-align: center;
+    }
+
+    .mobile-block-list-wrap {
+        width: 100%;
+    }
+
+    .mobile-tax-type {
+        width: 100%;
+    }
+}

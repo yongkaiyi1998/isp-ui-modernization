@@ -1,0 +1,64 @@
+.page {
+	width			: 205mm;
+	min-height		: 280mm;
+	max-height		: 280mm;
+	padding			: 5mm;	
+	margin			: 0mm auto;
+	border			: 0px rgb(230,230,230) solid;
+	border-radius	: 1px;
+	background		: white;
+}
+
+.subpage {
+	padding		: 0cm;
+	border		: 0px rgb(230,230,230) solid;
+	height		: 270mm;
+	width		: 200mm;
+	position	: relative;
+}
+
+
+@page {
+	size		: A4;
+	margin		: 0;
+	padding		: 0;
+}
+
+@media print 
+{
+	html, body 
+	{
+		width	: 200mm;
+		height	: 280mm;        
+	}
+	
+	.page {
+		margin				: 0;
+		border				: initial;
+		border-radius		: initial;
+		width				: initial;
+		min-height			: initial;
+		box-shadow			: initial;
+		background			: white;
+		
+		page-break-after	: always;
+	}
+}
+
+
+
+tbody:before, tbody:after { display: none; }
+
+.print-bg {
+  background: rgb(255, 255, 255);
+}
+
+.book .page {	
+	background-color:white !important;
+}
+
+.footer_line{
+/*
+	border-bottom:1px solid rgb(0,0,0); 
+*/
+}

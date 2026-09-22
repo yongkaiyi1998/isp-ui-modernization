@@ -1,0 +1,262 @@
+/*Force the autocomplete pop up bring to front.*/
+.ui-autocomplete {
+    z-index: 100;
+}
+
+.container{
+	width				: 100%;
+}
+
+.clear-style, .table > thead > tr > td.clear-style{
+    margin				: 0px;
+    padding-bottom		:0px;
+    border-bottom-width	:0px;
+    border-top-width	:0px;
+    padding-top			:0px;
+    padding-right		:0px;
+    border-right-width	:0px;
+    padding-left		:0px;
+    border-left-width	:0px;
+}
+
+#add-row-btn {
+	margin				: 0px;
+	margin-top			: -20px;
+    padding-bottom		:0px;
+    border-bottom-width	:0px;
+    border-top-width	:0px;
+    padding-top			:0px;
+    padding-right		:0px;
+    border-right-width	:0px;
+    padding-left		:0px;
+    border-left-width	:0px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance	: none;
+    -moz-appearance		: none;
+    appearance			: none;
+    margin				: 0; 
+}
+
+.point-cursor{
+	cursor		:pointer;
+}
+
+.disabled-cursor{
+	cursor		:not-allowed;
+}
+
+
+.head-for-print{
+	padding-top	: 4px;
+}
+
+@media print {
+	input{
+		border		: none;
+		box-shadow	: none;
+		outline		: none;
+	}
+
+	.printpage {
+		page-break-after: always;
+	}
+}
+.float_left {
+	float	:left;
+}
+.float_right {
+	float	:right;
+}
+
+.panel_divider_right{
+	border-right	: 1px solid rgba(0, 0, 0, 0.15);
+}
+.panel_divider_left{
+	border-left		: 1px solid rgba(0, 0, 0, 0.15);
+}
+.panel_space{
+	padding-left	: 5px; 
+	padding-right	: 5px;
+}
+.panel_fontsize {
+	font-size		: 1.5em; 
+}
+
+fieldset.category-border-main > div.category-border-main {
+	padding			:0.5em;
+	margin-bottom	:1.5em;
+	margin-left		:1em;
+	margin-right	:1em;
+}
+
+fieldset.category-border-main {
+	padding				: 0 0 1em 0;
+	margin				: 0 0 1em 0;
+}
+
+legend.category-border-main {
+	font-size		: 1.2em;
+	font-weight		: bold;
+	text-align		: left;
+	width			: auto;
+	padding			: 0 1px;	
+	border-bottom	: none;	
+	color			: rgba(0,0,0,0.5);
+}
+
+fieldset.category-border {
+	border				: 1px groove rgba(0,0,0,0.2) ;
+	padding				: 0 0.5em 2em 0.5em ;
+	margin				: 0 0 1.5em 0;
+	-webkit-box-shadow	: 0px 0px 0px 0px rgba(0,0,0,0.2);
+			box-shadow	: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+legend.category-border {
+	font-size		: 1.2em ;
+	font-weight		: bold;
+	text-align		: left;
+	width			: auto;
+	border-bottom	: none;
+	color			: rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 991px) {
+
+	.input_group{
+		font-size	:10px; 
+		min-width	:100px; 
+		text-align	:right;
+	}
+	.input_group_sm{
+		font-size	:10px; 
+		min-width	:10px; 
+		text-align	:right;
+	}
+
+	.input_group_150{
+		font-size	:10px; 
+		min-width	:150px; 
+		text-align	:right;
+	}
+
+}
+
+@media only screen and (min-width: 991px) {
+
+	.input_group{
+		font-size	:10px; 
+		min-width	:110px; 
+		text-align	:right;
+	}
+	.input_group_sm{
+		font-size	:10px; 
+		min-width	:10px; 
+		text-align	:right;
+	}
+
+	.input_group_150{
+		font-size	:10px; 
+		min-width	:150px; 
+		text-align	:right;
+	}
+
+}
+
+.filter-bar{
+	padding		:1em;
+}
+
+.input-checkbox-group > input{
+	margin-left	:9em;
+	margin-top	:0;
+}
+.input-checkbox-group-post > input{
+	margin-top	:0;
+
+}
+ul.label-custom > li > .label{
+	padding-top	:0.3em; 
+	min-width	:11em; 
+	text-align	:right;
+}
+ul.label-custom > .list-group-item{
+	padding		: 0;
+}
+ul.label-custom{
+	margin: 0;
+}
+
+.label-custom > li > span{
+	padding-top		: 0.2em;
+	padding-right	: 1em;
+}
+
+.top-bottom-bordered{
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+.desktop-icon {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.preview_area {
+	height:94px;
+	border: 1px solid gray;
+	background-color:white;
+}
+
+.icon-image i {
+	vertical-align:middle;
+	font-size:50px;
+	margin-top:18px;
+}
+
+.thumbnail-display {
+	/*width: 100%;
+	height: 100%;*/
+	margin-top:5px;
+	object-fit: cover;
+	/*height: 80px;
+	width:180px;*/
+	max-height:80px;
+	max-width:100%;
+}
+
+.remove-button {
+  cursor: pointer;
+  color: #d9534f;
+  margin-top: 10px;
+}
+
+.file-name {
+  font-weight: bold;
+  white-space: nowrap;         
+  overflow: hidden;         
+  text-overflow: ellipsis;   
+}
+
+.file-remark {
+  font-weight: bold;
+  white-space: nowrap;         
+  overflow: hidden;         
+  text-overflow: ellipsis;   
+  height:20px;
+}
+
+#file-container .hide {
+	display:none;
+}
+
+.report_th {
+	color: #fff;
+  font-weight: bold;
+  background: #289383 !important;
+}
