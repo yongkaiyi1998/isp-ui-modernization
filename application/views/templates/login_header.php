@@ -18,6 +18,7 @@ $favicon = $this->config->item('favicon_img');
 	<title><?php echo $proj_name.' - '.$title ?></title>
 	<base href="<?php echo $this->config->item('base_url') ?>">
 	<link rel="stylesheet" href="css/system.css?123" type="text/css" />
+	<link rel="stylesheet" href="css/ui-modern.css?123" type="text/css" />
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 	<meta name="robots" content="noindex">
 
