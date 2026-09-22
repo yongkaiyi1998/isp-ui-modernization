@@ -27,4 +27,4 @@ $favicon = $this->config->item('favicon_img');
 	<?php } ?>
 
 </head>
-<body class="login_bg">
+<body class="login_bg ui-login-page">

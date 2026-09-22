@@ -75,13 +75,13 @@ application/views/pages/login.php
 application/views/templates/login_footer.php
 ```
 
-- [ ] Create modern centered login card
-- [ ] Improve logo/title area
-- [ ] Modernize username/password fields
-- [ ] Improve captcha layout
-- [ ] Improve error display
-- [ ] Improve login button
-- [ ] Improve mobile layout
+- [x] Create modern centered login card
+- [x] Improve logo/title area
+- [x] Modernize username/password fields
+- [x] Improve captcha layout
+- [x] Improve error display
+- [x] Improve login button
+- [x] Improve mobile layout
 
 **Preserve**
 - authentication flow
