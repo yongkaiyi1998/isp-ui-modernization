@@ -46,6 +46,7 @@ $favicon = $this->config->item('favicon_img');
 	<!--[if lte IE 9]>
 	  <link rel="stylesheet" href="css/theme/ace-ie.css?1" />
 	<![endif]-->
+	<link rel="stylesheet" href="<?php echo base_url("css/ui-modern.css?".cssjs_ver()); ?>" />
 
 	
 	
@@ -100,4 +101,4 @@ $favicon = $this->config->item('favicon_img');
 	?>
 
 </head>
-<body class="no-skin">
+<body class="no-skin ui-modern-shell">
