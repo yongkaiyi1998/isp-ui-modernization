@@ -7,13 +7,8 @@
  */
 
 /* Base layout and typography */
-html {
-	font-size: 14px;
-}
-
 body {
 	color: #253044;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 }
@@ -31,12 +26,6 @@ a:focus {
 	color: #174a7e;
 }
 
-.main-content-inner {
-	max-width: none;
-	margin-top: 0;
-	margin-left: 0;
-}
-
 .page-content,
 .ui-page {
 	padding: 20px 24px;
@@ -49,7 +38,7 @@ a:focus {
 .text-muted,
 .ui-muted,
 .ui-page-description {
-	color: #667085 !important;
+	color: #667085;
 }
 
 /* Page and section headings */
@@ -166,6 +155,11 @@ a:focus {
 	border-radius: 4px;
 	box-shadow: none;
 	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input-group > .input-group-addon,
+.input-group > .input-group-btn > .btn {
+	height: 40px;
 }
 
 textarea.form-control,
@@ -590,4 +584,3 @@ fieldset[disabled] .btn {
 		margin-left: 4px;
 	}
 }
-
