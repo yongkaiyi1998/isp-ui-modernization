@@ -887,12 +887,6 @@ fieldset[disabled] .btn {
 	}
 }
 
-@media (max-width: 540px) {
-	.ui-modern-shell #navbar .user-menu {
-		padding-top: 42px;
-	}
-}
-
 @media (max-width: 480px) {
 	.ui-modern-shell #navbar .ui-navbar-brand {
 		max-width: calc(100vw - 155px);

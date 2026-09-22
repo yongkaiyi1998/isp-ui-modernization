@@ -22,7 +22,7 @@
 					?>
 					<?php if (!empty($company_logo)) { ?>
 					<div style="margin-top:1px;" class="pull-left">
-					<img class="ui-brand-logo" style="width:118px;" src="<?php echo $company_logo; ?>" alt="<?php echo $proj_name; ?>">
+					<img class="ui-brand-logo" style="width:118px;" src="<?php echo $company_logo; ?>" alt="<?php echo html_escape($proj_name); ?>">
 					</div>
 					<?php } else { ?>
 					<div style="margin-top:1px;" class="pull-left">
